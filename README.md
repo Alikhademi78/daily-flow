@@ -1,21 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# DailyFlow - AI Assistant App
 
-# Run and deploy your AI Studio app
+یک اپلیکیشن هوش مصنوعی فارسی برای مدیریت روزانه وظایف با قابلیت‌های صوتی.
 
-This contains everything you need to run your app locally.
+## 🚀 ساخت APK
 
-View your app in AI Studio: https://ai.studio/apps/a2b9685b-3f8a-45d4-8e1f-0d9b096ebdad
+### روش توصیه شده: GitHub Actions
 
-## Run Locally
+1. **پوش کردن تغییرات:**
+   ```bash
+   git add .
+   git commit -m "توضیح تغییرات"
+   git push origin main
+   ```
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+2. **دریافت APK:**
+   - به [GitHub Actions](https://github.com/Alikhademi78/daily-flow/actions) برید
+   - آخرین workflow رو انتخاب کنید
+   - از بخش Artifacts APK رو دانلود کنید
 
+### فایل‌های خروجی:
+- `app-debug.apk` - نسخه دیباگ برای تست
+- `app-release.apk` - نسخه ریلیز
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+## 📋 ویژگی‌ها
+
+- ✅ رابط کاربری فارسی
+- ✅ پشتیبانی از دستورات صوتی
+- ✅ مدیریت وظایف روزانه
+- ✅ یادآور هوشمند
+- ✅ جستجوی اینترنتی
+
+## 🛠️ تکنولوژی‌ها
+
+- **Language:** Kotlin
+- **Framework:** Android Jetpack Compose
+- **AI:** Google Gemini API
+- **Database:** Room
+- **Build:** Gradle
+
+## 📱 نصب
+
+1. APK رو از GitHub Actions دانلود کنید
+2. در گوشی Unknown Sources رو فعال کنید
+3. APK رو نصب کنید
+
+## 📄 مستندات
+
+برای اطلاعات بیشتر به [PROJECT_GUIDE.md](PROJECT_GUIDE.md) مراجعه کنید.
+
+---
+
+**Repository:** https://github.com/Alikhademi78/daily-flow
