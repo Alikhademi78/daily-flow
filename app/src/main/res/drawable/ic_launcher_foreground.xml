@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing Background Fluid Core -->
+    <path
+        android:pathData="M54,24 C37.4,24 24,37.4 24,54 C24,70.6 37.4,84 54,84 C70.6,84 84,70.6 84,54 C84,37.4 70.6,24 54,24 Z"
+        android:fillType="nonZero">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="24"
+                android:startY="24"
+                android:endX="84"
+                android:endY="84"
+                android:type="linear">
+                <item android:color="#3F8B5CF6" android:offset="0.0" />
+                <item android:color="#26D946EF" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Sound Wave 1 (Violet) -->
+    <path
+        android:pathData="M28,54 C28,45 34,35 44,32 C50,30 58,32 64,36 C72,41 78,50 78,60 M34,48 C36,40 42,36 50,36 C58,36 64,42 66,50"
+        android:strokeWidth="3"
+        android:strokeColor="#8B5CF6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Inner Sound Wave 2 (Fuchsia) -->
+    <path
+        android:pathData="M38,62 C38,66 42,70 48,72 C56,74.5 66,72 72,66 C78,60 80,52 76,46 M46,58 C48,64 54,66 60,64"
+        android:strokeWidth="3.5"
+        android:strokeColor="#D946EF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Center Glowing Smart Mic Core -->
+    <path
+        android:pathData="M54,42 C50,42 47,45 47,49 L47,59 C47,63 50,66 54,66 C58,66 61,63 61,59 L61,49 C61,45 58,42 54,42 Z"
+        android:fillColor="#FFFFFF" />
+
+    <!-- Mic stand -->
+    <path
+        android:pathData="M43,56 C43,62 48,67 54,67 C60,67 65,62 65,56 M54,67 L54,74 M48,74 L60,74"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+</vector>

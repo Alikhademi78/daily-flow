@@ -1,0 +1,8 @@
+{
+  "name": "DailyFlow",
+  "description": "DailyFlow is a localized, Persian-optimized AI Voice Assistant and Task Manager built on clean architecture, local-first Persian NLP parsing, real Speech-to-Text inputs, and Gemini AI backup orchestration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
